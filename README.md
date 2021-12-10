@@ -104,4 +104,12 @@ behaviourtree_tutorial/naturalnumActionFeedback action_feedback
     int32[] sequence
 ```
 
+The description regarding to the auto_start flag could be found [here](https://answers.ros.org/question/107126/actionlib-auto_start-parameter/) 
+
+
+Full API Reference for [simpleActionServer](https://docs.ros.org/en/api/actionlib/html/classactionlib_1_1simple__action__server_1_1SimpleActionServer.html)
+
+Full API Reference for [simpleActionClient](https://docs.ros.org/en/api/actionlib/html/classactionlib_1_1simple__action__client_1_1SimpleActionClient.html)
+
+
 
