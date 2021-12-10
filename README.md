@@ -32,4 +32,76 @@ Suppose you define teju.action file. Then the following msg types would be autom
 - tejuResult.msg
 - tejuFeedback
 
+Goal, Result, Feedback
+![image](https://user-images.githubusercontent.com/64950661/145539655-c6369770-9b4d-4903-9536-016f85bd7e2d.png)
+
+ActionGoal
+![image](https://user-images.githubusercontent.com/64950661/145539145-7dc7620e-cd55-4f59-be8a-b5e1ef73a4a4.png)
+
+ActionFeedback
+![image](https://user-images.githubusercontent.com/64950661/145539279-b65ba529-fdb1-42a7-b1e2-d9aff65d53ab.png)
+
+ActionResult
+![image](https://user-images.githubusercontent.com/64950661/145539308-44bce033-c223-469a-945d-6e2c7b467085.png)
+
+Action (run - rosmsg show behaviourtree_tutorial/naturalnumAction)
+```
+behaviourtree_tutorial/naturalnumActionGoal action_goal
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  actionlib_msgs/GoalID goal_id
+    time stamp
+    string id
+  behaviourtree_tutorial/naturalnumGoal goal
+    int32 num_steps
+behaviourtree_tutorial/naturalnumActionResult action_result
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  actionlib_msgs/GoalStatus status
+    uint8 PENDING=0
+    uint8 ACTIVE=1
+    uint8 PREEMPTED=2
+    uint8 SUCCEEDED=3
+    uint8 ABORTED=4
+    uint8 REJECTED=5
+    uint8 PREEMPTING=6
+    uint8 RECALLING=7
+    uint8 RECALLED=8
+    uint8 LOST=9
+    actionlib_msgs/GoalID goal_id
+      time stamp
+      string id
+    uint8 status
+    string text
+  behaviourtree_tutorial/naturalnumResult result
+    int32[] sequence
+behaviourtree_tutorial/naturalnumActionFeedback action_feedback
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  actionlib_msgs/GoalStatus status
+    uint8 PENDING=0
+    uint8 ACTIVE=1
+    uint8 PREEMPTED=2
+    uint8 SUCCEEDED=3
+    uint8 ABORTED=4
+    uint8 REJECTED=5
+    uint8 PREEMPTING=6
+    uint8 RECALLING=7
+    uint8 RECALLED=8
+    uint8 LOST=9
+    actionlib_msgs/GoalID goal_id
+      time stamp
+      string id
+    uint8 status
+    string text
+  behaviourtree_tutorial/naturalnumFeedback feedback
+    int32[] sequence
+```
+
 
