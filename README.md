@@ -1,6 +1,6 @@
 # behaviourtree_tutorial
 
-## This repository is meant to practice actionlib tutorials and trying out a small PS based on ros pytrees.
+This repository is meant to practice actionlib tutorials and trying out a small PS based on ros pytrees.
 
 ## ActionLib Package
 The `actionlib` package allows to create servers(to execute long running goals) and clients(to send request). The main difference btw a service and action lies in the fact that action allows us to can cel the request during the execution phase(preempting the goal) and gives a periodic feedback about how the request is progressing.
