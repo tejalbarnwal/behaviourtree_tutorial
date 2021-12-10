@@ -113,3 +113,7 @@ Full API Reference for [simpleActionClient](https://docs.ros.org/en/api/actionli
 
 
 
+## Doubts 
+- [Auto_Start Flag](https://www.reddit.com/r/robotics/comments/rd4cje/ros_action_server/)
+
+
