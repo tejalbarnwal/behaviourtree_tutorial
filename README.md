@@ -111,6 +111,12 @@ Full API Reference for [simpleActionServer](https://docs.ros.org/en/api/actionli
 
 Full API Reference for [simpleActionClient](https://docs.ros.org/en/api/actionlib/html/classactionlib_1_1simple__action__client_1_1SimpleActionClient.html)
 
+### Note
+FOund that action name that you specify in the action server should be same the as the action name that you specify in the action client!
+Henceforth, in the tutorial given at ROS wiki didnt explicitly mention this but , "fibonacci" is the one!
+In the tutorial scripts we created, "NaturalNumberListNode" is the one!
+
+
 
 
 ## Doubts 
