@@ -112,14 +112,14 @@ Full API Reference for [simpleActionServer](https://docs.ros.org/en/api/actionli
 Full API Reference for [simpleActionClient](https://docs.ros.org/en/api/actionlib/html/classactionlib_1_1simple__action__client_1_1SimpleActionClient.html)
 
 ### Note
-FOund that action name that you specify in the action server should be same the as the action name that you specify in the action client!
+1. Found that action name that you specify in the action server should be same the as the action name that you specify in the action client!
 Henceforth, in the tutorial given at ROS wiki didnt explicitly mention this but , "fibonacci" is the one!
 In the tutorial scripts we created, "NaturalNumberListNode" is the one! Further, this is the action name.
 The action client and server communicate over a set of topics, described in the actionlib protocol. The action name describes the namespace containing these topics, and the action specification message describes what messages should be passed along these topics.
 
 ![image](https://user-images.githubusercontent.com/64950661/145781778-62b6a036-7e5d-4c99-9860-3b492f5197c3.png)
 
-
+2. We can also use [axclient from actionlib](http://wiki.ros.org/actionlib_tutorials/Tutorials/Calling%20Action%20Server%20without%20Action%20Client) which provides a graphical way to send the goals to the action server.
 
 ## Doubts 
 - [Auto_Start Flag](https://www.reddit.com/r/robotics/comments/rd4cje/ros_action_server/)
