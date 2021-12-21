@@ -23,3 +23,6 @@ Data Gatherers assemble under the parallel at or near the very root of the tree 
  ```
  We cant simply change the topic name of /battery/state to get a topic ont he blackboard!
  
+- [x] Custom board implementation with blackboard
+- [ ] Custom Action Client
+ 
