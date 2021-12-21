@@ -14,6 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  py_trees_ros
+  py_trees_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -67,6 +69,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_action_files(
   FILES
   naturalnum.action
+  tb_rotate.action
 )
 
 ## Generate added messages and services with any dependencies listed here

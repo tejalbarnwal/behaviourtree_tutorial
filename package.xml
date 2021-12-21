@@ -66,6 +66,15 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
 
+  <exec_depend>py_trees</exec_depend>
+  <exec_depend>py_trees_msgs</exec_depend>
+  <exec_depend>py_trees_ros</exec_depend>
+  <exec_depend>python-rospkg</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+
+  <exec_depend>unique_id</exec_depend>
+  <exec_depend>uuid_msgs</exec_depend>
+
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
