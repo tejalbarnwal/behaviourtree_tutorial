@@ -47,6 +47,7 @@ The initialize mehtod is only called when the behaviour is not already running
 ## Composites
 They are the factories and the decision makers of a behaviour tree
 They could be a sequence, selector, chooser or parallel
+[Reference](https://py-trees.readthedocs.io/en/devel/composites.html)
 
 #### Sequence [Rectangle]
 Eexcutes children sequentially
