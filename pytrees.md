@@ -46,7 +46,7 @@ The initialize mehtod is only called when the behaviour is not already running
 
 ## Composites
 They are the factories and the decision makers of a behaviour tree
-They could be a sequence, selector, chooser or parallel
+They could be a sequence, selector, chooser or parallel <br>
 [Reference](https://py-trees.readthedocs.io/en/devel/composites.html)
 
 #### Sequence [Rectangle]
@@ -63,12 +63,15 @@ Manage Children concurrently where you can also define all policy acc to your ne
 Policy could be successonall, successoone or successonselected
 
 ## Decorators
-They are used only for a single child and they provide us to make common modicifications such as inverting, timout, status to blackboard, ya running is success, successis failure..
+They are used only for a single child and they provide us to make common modicifications such as inverting, timout, status to blackboard, ya running is success, successis failure..<br>
+[Reference](https://py-trees.readthedocs.io/en/devel/decorators.html)
 
 ## Blackboards
 They are mechanism for sharing the data btw different behaviour in a tree
 The implemenatiion way follows clients and key-value jaisa form
 Clients register for the key they want to access and data is stored in key-value form
 
+## Trees
+You generally pass the root element to the `py_trees.trees.BehaviourTree` and further add child/ children to include all the behaviours
 
 
