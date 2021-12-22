@@ -24,8 +24,12 @@ Data Gatherers assemble under the parallel at or near the very root of the tree 
  We cant simply change the topic name of /battery/state to get a topic ont he blackboard!
  
 - [x] Custom board implementation with blackboard
-- [ ] Custom Action Client
+- [x] Custom Action Server to rotate turtlesim
+- [ ] Put pose to blackboard
+- [ ] Use bt for actionclient
  
 ![image](https://user-images.githubusercontent.com/64950661/147006081-2fb45bed-7f13-409d-bc0a-f83dd6ba9377.png)
 ![image](https://user-images.githubusercontent.com/64950661/147006117-3b213334-28f8-41dc-86c3-5c91a06848a8.png)
 ![image](https://user-images.githubusercontent.com/64950661/147008358-ed17c1aa-bd31-462a-bba3-b7a4574d872d.png)
+
+
