@@ -32,4 +32,11 @@ Data Gatherers assemble under the parallel at or near the very root of the tree 
 ![image](https://user-images.githubusercontent.com/64950661/147006117-3b213334-28f8-41dc-86c3-5c91a06848a8.png)
 ![image](https://user-images.githubusercontent.com/64950661/147008358-ed17c1aa-bd31-462a-bba3-b7a4574d872d.png)
 
-
+EVERDAY SITES I NEED:
+* https://github.com/splintered-reality/py_trees_ros/tree/release/0.5.x
+* https://github.com/splintered-reality/py_trees_ros/tree/release/0.5.x/scripts
+* https://github.com/splintered-reality/py_trees_msgs
+* https://github.com/splintered-reality/py_trees_ros/blob/release/0.5.x/py_trees_ros/tutorials/five.py
+* http://docs.ros.org/en/melodic/api/py_trees_ros/html/tutorials.html#module-py_trees_ros.tutorials.five
+* http://docs.ros.org/en/melodic/api/py_trees_ros/html/terminology.html#term-guard
+* 
