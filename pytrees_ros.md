@@ -23,23 +23,20 @@ Data Gatherers assemble under the parallel at or near the very root of the tree 
  ```
  We cant simply change the topic name of /battery/state to get a topic ont he blackboard!
  
+ ## Trying with turtlesim
+ Tasks divided : 
 - [x] Custom board implementation with blackboard
 - [x] Custom Action Server to rotate turtlesim
-- [ ] Put pose to blackboard
-- [ ] Use bt for actionclient
+- [x] Put pose to blackboard
+- [x] Use bt for actionclient to rotate turtlesim by 90 degrees
  
-![image](https://user-images.githubusercontent.com/64950661/147006081-2fb45bed-7f13-409d-bc0a-f83dd6ba9377.png)
-![image](https://user-images.githubusercontent.com/64950661/147006117-3b213334-28f8-41dc-86c3-5c91a06848a8.png)
-![image](https://user-images.githubusercontent.com/64950661/147008358-ed17c1aa-bd31-462a-bba3-b7a4574d872d.png)
-![image](https://user-images.githubusercontent.com/64950661/147088637-9c7b9498-8d0e-4cae-8e9e-8fe1c2f35915.png)
-![image](https://user-images.githubusercontent.com/64950661/147089276-8398d76e-4690-409d-82a2-417cddd34e40.png)
+![image](https://user-images.githubusercontent.com/64950661/147112109-a8c91104-0e96-4af1-a484-132b4f950164.png)
 
 
-EVERDAY SITES I NEED:
+Sites I referred to implement this:
 * https://github.com/splintered-reality/py_trees_ros/tree/release/0.5.x
 * https://github.com/splintered-reality/py_trees_ros/tree/release/0.5.x/scripts
 * https://github.com/splintered-reality/py_trees_msgs
 * https://github.com/splintered-reality/py_trees_ros/blob/release/0.5.x/py_trees_ros/tutorials/five.py
 * http://docs.ros.org/en/melodic/api/py_trees_ros/html/tutorials.html#module-py_trees_ros.tutorials.five
 * http://docs.ros.org/en/melodic/api/py_trees_ros/html/terminology.html#term-guard
-* 
